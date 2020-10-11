@@ -1,0 +1,16 @@
+controller_list:
+  - name: fake_todoroki_arm_controller
+    joints:
+      - rev0
+      - rev1
+      - rev2
+      - rev3
+      - rev4
+      - rev5
+      - rev6
+  - name: fake_hand_controller
+    joints:
+      - rev6
+initial:  # Define initial robot poses.
+  - group: todoroki_arm
+    pose: home
